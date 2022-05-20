@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.main-header{
+    background-color: green;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px 10px;
+}
+
+.brand-logo{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+body{
+    margin: 0;
+}
+
+.main-nav{
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100%-136px);
+}
+
+.main-nav-links{
+    padding: 0;
+    text-align: right;
+    list-style: none;
+}
+
+.main-nav-link{
+    display: inline-block;
+    margin: 0 16px;
+}

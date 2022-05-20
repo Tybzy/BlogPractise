@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <form>
+        <h2>Please Fill In All Requirements</h2><hr><br><br>
+        <label for="username">Username:</label>
+        <input type="Username" placeholder=" Enter Username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="Enter Password" required><br><br>
+        <label for="email">Email;</label>
+        <input type="email" placeholder="Enter Mail" required><br><br>
+        <label for="date">D.O.B:</label>
+        <input type="date" placeholder="Date Of Birth" required><br><br>
+        p>Select Your Age:</p>
+        <input type="radio" name="Age" value="0-25" id="option 1">
+        <label for="0-25">0-25</label>
+        <input type="radio" name="Age" value="51+" id="option 2">
+        <label for="51+">Option 2</label><br><br>
+        Gender:
+        Male<input type="radio" name="gender" value="male" required>
+        Female<input type="radio" name="gender" value="female" required>
+        Custom<input type="radio" name="gender" value="custom" required><br><br>
+        <label for="bio">Bio:</label><br>
+        <textarea name="Bio" id="My bio" cols="30" rows="10" placeholder="about me..." required></textarea><br><br>
+        <label for="question">Security Question:</label>
+        <select name="question" id="question" required>
+            <option value="">Select</option>
+            <option value="question 1">Favorite color</option>
+            <option value="question 2">Favorite food</option>
+        </select>
+        <label for="answer">Security Question Answer:</label>
+        <input type="text" name="answer" id="answer"><br><br>
+        Hobbies:
+        Coding<input type="checkbox" name="hobbies" value="coding">
+        Football<input type="checkbox" name="hobbies" value="football"><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+    </form>
+    <footer>CBC Dev 2022</footer>
+</body>
+</html>
