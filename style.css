@@ -1,37 +1,32 @@
 *{
     box-sizing: border-box;
 }
+/* main header */
 .main-header{
-    background-color: green;
-    text-decoration: none;
+    background-color: skyblue;
+    color: white;
     width: 100%;
     padding: 15px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.main-header>div{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .brand-logo{
-    color: white;
     text-decoration: none;
-    font-size: 32px;
     font-weight: bolder;
-}
-
-body{
-    margin: 0;
+    font-size: 32px;
 }
 
 .main-nav{
     display: inline-block;
     vertical-align: middle;
-    width: calc(100%-136px);
-}
-
-.main-nav-links{
-    padding: 0;
-    text-align: right;
-    list-style: none;
-}
-
-.main-nav-link{
-    display: inline-block;
-    margin: 0 16px;
+    width: calc(100% - 107px);
+    
 }
