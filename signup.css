@@ -1,0 +1,19 @@
+main{
+    position: relative;
+}
+
+form{
+    position: absolute;
+    left: 40%;
+    transform: translateX(-40);
+    line-height: 2rem;
+    font-weight: bolder;
+}
+
+h2{
+    color: red;
+    background-color: skyblue;
+    margin: 16px;
+    padding: 24px;
+    text-align: center;
+}
